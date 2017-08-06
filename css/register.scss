@@ -1,0 +1,60 @@
+@import 'layout.scss';
+@import 'login.scss';
+
+.phone{
+	height:num(25rem);
+	width:100%;
+	margin-bottom:20px;
+	.china{
+		display:block;
+		float:left;
+		color:#333;
+		font-size:num(21rem);
+		margin-left:116px;
+	}
+	.add{
+		@extend .china;
+		margin-left:3px;
+		margin-right:3px;
+		line-height:num(25rem);
+	}
+	.number{
+		float:left;
+		font-size:num(16rem);
+		color:#999;
+		line-height:num(25rem);
+	}
+	a{
+		img{
+			height:num(9rem);
+			width:num(9rem);
+			margin:num(9rem);
+			float:right;
+		}
+	}
+}
+.code{
+	input{	
+		height:num(28rem);
+		width:num(195rem);
+		margin: 0 auto;
+		outline:none;
+		border:none;
+		font-size:num(20rem);
+		color:#edeef1;
+		line-height:num(28rem);
+		text-align:right;
+	}
+	a{
+		font-size:num(12rem);
+		color:#ff6885;
+		vertical-align:bottom;
+		margin-left:num(30rem);
+	}
+}
+.code_bg{
+	height:num(1rem);
+	width:num(224rem);
+	background:url(../img/input_bg.png) repeat-x;
+	margin-bottom:num(20rem);
+}

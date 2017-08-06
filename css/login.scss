@@ -1,0 +1,149 @@
+@import 'layout.scss';
+$hei:num(37rem);
+/*头部*/
+#header{
+	width:100%;
+	height:num(38rem);
+	background:#fafafa;
+	position:fixed;
+	top:0;
+}
+.bg{
+	clear:both;
+	height:num(1rem);
+	width:100%;
+	background: url(../img/shopping_border1.png) repeat-x;
+}
+.return{
+	float:left;
+	height:num(37rem);
+	width:num(37rem);
+	a{
+		img{
+		display:block;
+		height:num(20rem);
+		width:num(13rem);
+		margin:num(9rem)
+		}
+	}
+	
+}
+h1{
+	height:num(37rem);
+	width:num(226rem);
+	text-align:center;
+	line-height:num(37rem);
+	font-size:num(16rem);
+	font-weight:bold;
+	color:#5e5e5e;
+	float:left;
+}
+.forgot{
+	height:num(37rem);
+	width:num(57rem);
+	font-size:num(12rem);
+	color:#5e5e5e;
+	float:right;
+	line-height:num(37rem);
+	text-align:right;
+}
+.layout{
+	height:auto;
+	width:100%;
+	flex:1;
+	margin-bottom:num(38rem);
+}
+#container{
+	height:num(458rem);
+	width:num(294rem);
+	margin:0 auto;
+	margin-top:num(58rem);
+}
+p{
+	height:num(11rem);
+	color:#666;
+	font-size:num(11rem);
+	text-align:center;
+	line-height:num(11rem);
+	margin-bottom:num(17rem);
+}
+.user{
+	height:num(28rem);
+	width:100%;
+	input{
+		height:num(28rem);
+		width:num(226rem);
+		display:block;
+		margin: num(6rem) auto;
+		outline:none;
+		border:none;
+		font-size:num(20rem);
+		color:#edeef1;
+		line-height:num(28rem);
+		text-align:center;
+	}	
+	
+}
+::-webkit-input-placeholder{
+	font-size:num(20rem);
+	color:#edeef1;
+	}
+.password{
+	@extend .user;
+}
+.input_bg{
+	height:num(1rem);
+	width:100%;
+	background:url(../img/input_bg.png) repeat-x;
+	margin-bottom:num(20rem);
+}
+.login_but{
+	height:num(42rem);
+	border-radius:num(2rem);
+	background:#ff1877;
+	font-size:num(13rem);
+	color:white;
+	line-height:num(42rem);
+	text-align:center;
+}
+.link_a{
+	font-size:num(11rem);
+	color:#999;
+	display:block;
+	margin-top:num(17rem);
+	float:left;
+}
+.link_b{
+	@extend .link_a;
+	float:right;
+	color:#ff5777;
+}
+.line{
+	height:num(29rem);
+	margin-top:num(38rem);
+}
+.line_1{
+	display:block;
+	height:num(1rem);
+	width:num(114rem);
+	background:url(../img/input_bg.png) repeat-x; 
+	float:left;
+	margin:num(14rem) num(13rem);
+}
+.line_2{
+	float:left;
+	line-height:num(29rem);
+	text-align:center;
+	color:#f1f4f8;
+	font-size:num(9rem);
+}
+.line_3{
+	@extend .line_1;
+}
+img{
+	display:block;
+	height:num(92rem);
+	width:num(92rem);
+	margin:0 auto;
+	margin-top:num(35rem);
+}
